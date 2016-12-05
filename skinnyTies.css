@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 100; }
+
+/*partials*/
+/* fonts */
+/* colors variable*/
+/* orange border */
+#orange_border {
+  width: 100%;
+  height: 38px;
+  background-color: #fa6938; }
+  #orange_border #free_box {
+    width: 110px;
+    height: 28px;
+    background-color: #c8542d; }
+
+nav {
+  height: 117px; }
+  nav #logo img {
+    width: 128px;
+    height: 117px; }
+  nav #menu {
+    font-size: 26px;
+    margin: auto; }
+    nav #menu li {
+      display: inline-block;
+      margin: auto; }
+  nav #test {
+    width: 350px; }
+    nav #test #sign_in {
+      text-align: right;
+      padding-top: 10px; }
+    nav #test #layer {
+      text-align: center; }
+      nav #test #layer #search {
+        height: 28px;
+        width: 152px; }
+
+/* shared properties */
+nav, #white, #hatch, #list {
+  width: 100%;
+  background-color: white; }
+
+#grey, footer {
+  width: 100%;
+  background-color: #f4f4f4; }
+
+.container {
+  width: 82%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=skinnyTies.css.map */

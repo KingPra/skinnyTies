@@ -1,0 +1,44 @@
+/* orange border */
+#orange_border {
+    width: 100%;
+    height: 38px;
+    background-color: $top_border_color;
+
+    #free_box {
+        width: 110px;
+        height: 28px;
+        background-color: $free_shipping_bg;
+    }
+}
+
+nav {
+    height: 117px;
+    #logo img {
+        width: 128px;
+        height: 117px;
+    }
+    #menu {
+        font-size: 26px;
+        margin: auto;
+        li {
+            display: inline-block;
+            margin: auto;
+        }
+    }
+    #test {
+        width: 350px;
+        #sign_in {
+            text-align: right;
+            padding-top: 10px;
+        }
+        #layer { text-align: center;
+        #search {
+            height: 28px;
+            width: 152px;
+        }
+        }
+    }
+}
+
+
+

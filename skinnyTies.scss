@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 100;
+}
+
+/*partials*/
+
+@import 'variables';
+@import 'header';
+
+/* shared properties */
+
+nav, #white, #hatch, #list{
+    width: 100%;
+    background-color: $bg_white;
+}
+
+#grey, footer {
+    width: 100%;
+    background-color: $bg_lt_grey;
+}
+
+.container {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
