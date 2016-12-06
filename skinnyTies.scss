@@ -1,16 +1,16 @@
-body {
-    margin: 0;
-    font-family: 'Palanquin', sans-serif;
-    font-weight: 100;
-}
 
 /*partials*/
-
 @import 'variables';
 @import 'header';
 @import 'footer';
 
 /* shared properties */
+
+body {
+    margin: 0;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 100;
+}
 
 nav, #white, #hatch, #list{
     width: 100%;
@@ -27,4 +27,8 @@ nav, #white, #hatch, #list{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
 }

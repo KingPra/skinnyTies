@@ -4,37 +4,84 @@
     height: 38px;
     background-color: $top_border_color;
 
+    ul {
+        margin: 0;
+        padding-left: 100px;
+    }
+
+    li {
+        margin-left: 20px;
+        font-size: 0.9em;
+        display: inline-block;
+        color: $bg_white;
+    }
+
     #free_box {
         width: 110px;
         height: 28px;
         background-color: $free_shipping_bg;
+        border-radius: 3px;
+        text-align: center;
+        padding-top: 2px;
+        margin-top: 4px;
     }
 }
 
 nav {
     height: 117px;
+
     #logo img {
         width: 128px;
         height: 117px;
     }
+
     #menu {
         font-size: 26px;
         margin: auto;
+       
         li {
             display: inline-block;
-            margin: auto;
+            margin: 0 10px;
+            
         }
     }
     #test {
         width: 350px;
-        #sign_in {
+        text-align: center;
+
+       p {
+           display: inline;
+           font-size: 11px;
+           color: $border_lt_grey;
+           padding: 0 5px;
+
+            #register {
+                text-align: right;
+                margin: 10px 0;
+                height: 20px;
+            }
+
+            #layer { text-align: center;
+            
+            #sign_in {
             text-align: right;
             padding-top: 10px;
-        }
-        #layer { text-align: center;
-        #search {
+        
+
+            #cart {
+                border-radius: 2px;
+                margin-top: 10px;
+                width: 70px;
+                height: 30px;
+                border: 1px solid black;
+                display: inline-block;
+
+                #search {
             height: 28px;
             width: 152px;
+        }
+            }
+            }
         }
         }
     }

@@ -1,0 +1,93 @@
+footer {
+    height: 237px;
+    background-image: url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/perforated-bottom%402x.png");
+    background-repeat: repeat-x;
+    background-size: 45px;
+    text-align: center;
+    margin: 0;
+
+    div {
+        display: block;
+    }
+
+    ul {
+        margin-top: 30px;
+        padding: 0;
+        display: block;
+        display: inline-flex;
+    }
+
+    li {
+        width: 107px;
+        height: 122px;
+        display: inline-block;
+        margin: 0 10px;
+        text-align: left;
+    }
+
+    h4 {
+        margin: 0;
+        font-weight: 900;
+    }
+
+    .left_block p {
+            color: $bg_dark_grey;
+
+        }
+
+    p {
+        display: block;
+        font-size: 13px;
+        font-weight: 900;
+        margin: -4px 0 -4px 0;
+    }
+
+    section {
+        text-align: left;
+        margin: 0 auto;
+        width: 82%;
+        color: $bg_dark_grey;
+
+        p {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+
+    #block {
+        width: 321px;
+        margin-left: 175px;
+        border: 1px solid $border_grey;
+        border-radius: 2px;
+        background-color: $border_lt_grey;
+
+        h3 {
+            font-size: 26px;
+            font-style: italics;
+            font-weight: 100;
+            color: $bg_white;
+            margin: 0;
+            padding-left: 15px;
+        }
+
+        h5 {
+            display: inline-block;
+            margin: 0;
+            line-height: 1.3em;
+            padding-left: 15px;
+            font-size: 18px;
+            color: $bg_white;
+        }
+
+        button {
+            width: 104px;
+            height: 38px;
+            background-color: $button_blue;
+            border: 1px solid $bg_dark_grey;
+            border-radius: 3px;
+            margin: 15px;
+            color: $bg_white;
+            font-weight: 100;
+        }
+    }
+}
